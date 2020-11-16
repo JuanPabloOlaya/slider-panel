@@ -1,0 +1,14 @@
+.header {
+  height: 50px;
+  background-color: #ffffff;
+
+  /** FLEX */
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  flex-basis: 0;
+
+  &__item {
+    flex-grow: 1;
+  }
+}

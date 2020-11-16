@@ -1,0 +1,32 @@
+.nav {
+  background-color: #192354;
+  height: 100%;
+  width: 50px;
+
+  /** FLEX */
+  flex: 0 0 50px;
+  display: flex;
+  flex-direction: column;
+
+  &__avatar {
+    flex: 0 0 49px;
+    width: 49px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  &__item {
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+    justify-content: center;
+
+    /** FLEX; */
+    display: flex;
+    align-items: center;
+  }
+
+  &__item:hover {
+    background-color: #4d4e53;
+  }
+}
