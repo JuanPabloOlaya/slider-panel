@@ -4,6 +4,8 @@
 
   /** FLEX */
   display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   flex-direction: row;
   flex-grow: 0;
   flex-basis: 0;

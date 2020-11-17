@@ -1,4 +1,7 @@
 .main {
   flex-grow: 1;
   display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: column;
 }

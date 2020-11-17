@@ -1,7 +1,11 @@
 .content {
   background-color: #f3f2f7;
   height: 100vh;
-  flex-grow: 1;
+
+  /** FLEX */
   display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-grow: 1;
   flex-direction: column;
 }

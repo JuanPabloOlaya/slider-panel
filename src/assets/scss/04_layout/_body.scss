@@ -4,7 +4,12 @@ body {
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  display: flex;
   height: 100%;
+
+  /** FLEX */
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
   flex-direction: row;
 }

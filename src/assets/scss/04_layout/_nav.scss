@@ -6,6 +6,8 @@
   /** FLEX */
   flex: 0 0 50px;
   display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   flex-direction: column;
 
   &__avatar {
